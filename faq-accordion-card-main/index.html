@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  
+  <section class="container">
+      <img src="./images/illustration-box-desktop.svg" class="box">
+      <picture class="decor-cont">
+        <source srcset="./images/illustration-woman-online-mobile.svg" media="(max-width:780px)">
+          <img class="decor" src="./images/illustration-woman-online-desktop.svg" alt="Flowers">
+      </picture>
+      <form class="spacer">
+        <h1>FAQ</h1>
+        
+          
+            <section class="qa">
+              <input type="checkbox" id="q1"></input>
+                <label class="q" for="q1">
+                  <p>How many team members can I invite?</p><img src="./images/icon-arrow-down.svg" class="arrow">
+                </label>
+
+                <spam class="a" id="q1">
+                  You can invite up to 2 additional users on the Free plan. There is no limit on 
+                  team members for the Premium plan.
+                </spam>
+            </section>
+          
+            <section class="qa">
+              <input type="checkbox" id="q2">
+              <label class="q" for="q2">
+                <p>What is the maximum file upload size?</p><img src="./images/icon-arrow-down.svg" class="arrow">
+              </label>
+              <spam class="a" id="q2">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+              </spam>
+            </section>
+
+            <section class="qa">
+              <input type="checkbox" id="q3">
+                <label class="q" for="q3">
+                <p> How do I reset my password?</p><img src="./images/icon-arrow-down.svg" class="arrow">
+                </label>
+                <spam class="a" id="q3">
+                Click “Forgot password” from the login page or “Change password” from your profile page.
+                A res
+                et link will be emailed to you.
+                </spam>
+            </section>
+            <section class="qa">
+                <input type="checkbox" id="q4">
+                <label class="q" for="q4">
+                  <p>Can I cancel my subscription?</p><img src="./images/icon-arrow-down.svg" class="arrow">
+                </label>
+                <spam class="a">
+                Yes! Send us a message and we’ll process your request no questions asked.
+                </spam>
+            </section>
+
+            <section class="qa">
+              <input type="checkbox" id="q5">
+                <label class="q" for="q5">
+                  <p>Do you provide additional support?</p><img src="./images/icon-arrow-down.svg" class="arrow">
+                </label>
+                <spam class="a">
+                Chat and email support is available 24/7. Phone lines are open during normal business hours.
+                </spam>
+            </section>
+          </form>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
